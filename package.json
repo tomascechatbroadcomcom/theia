@@ -1,0 +1,21 @@
+{
+    "dependencies": {
+        "@theia/plugin-ext-vscode": "next",
+        "@theia/preview": "next",
+        "@theia/editor-preview": "next",
+        "@theia/getting-started": "next",
+        "@theia/json": "next",
+        "@theia/textmate-grammars": "next"
+    },
+    "devDependencies": {
+        "@theia/cli": "next",
+        "@theia/debug": "next"
+    },
+    "scripts": {
+        "postinstall": "download-debug-adapters"
+    },
+    "adapterDir": "plugins",
+    "adapters": {
+        "vscode-zosexpl": "https://ms-vscode.gallery.vsassets.io/_apis/public/gallery/publisher/ms-vscode/extension/zosexplorer/0.8.0/assetbyname/Microsoft.VisualStudio.Services.VSIXPackage"
+    }
+}
