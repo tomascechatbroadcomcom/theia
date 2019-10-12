@@ -1,15 +1,15 @@
 {
     "dependencies": {
-        "@theia/plugin-ext-vscode": "next",
-        "@theia/preview": "next",
-        "@theia/editor-preview": "next",
-        "@theia/getting-started": "next",
-        "@theia/json": "next",
-        "@theia/textmate-grammars": "next"
+        "@theia/plugin-ext-vscode": "latest",
+        "@theia/preview": "latest",
+        "@theia/editor-preview": "latest",
+        "@theia/getting-started": "latest",
+        "@theia/json": "latest",
+        "@theia/textmate-grammars": "latest"
     },
     "devDependencies": {
-        "@theia/cli": "next",
-        "@theia/debug": "next"
+        "@theia/cli": "latest",
+        "@theia/debug": "latest"
     },
     "scripts": {
         "postinstall": "download-debug-adapters"
